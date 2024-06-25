@@ -1,0 +1,28 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "ramya is learning",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SATTIRAMYASRI/Namaste-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ramya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SATTIRAMYASRI/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/SATTIRAMYASRI/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
