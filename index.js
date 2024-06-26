@@ -9,34 +9,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-const heading = React.createElement(
-  "h1",
-  {
-    id: "title",
-    style: {
-      background: "blue",
-    },
-    className: "title"
-  },
-  "heading"
-);
-const heading1 = React.createElement(
-  "h1",
-  {
-    id: "title",
-  },
-  "heading1"
-);
+const heading=<h1>Ramya sri</h1>
 
-const container = React.createElement(
-  "div",
-  {
-    id: "container",
-  },
-  [heading, heading1]
-);
+const Heading=()=><h1>Hello</h1>
 
-// create root using createRoot
-const root = ReactDOM.createRoot(document.getElementById("root"));
-// passing react element inside root
-root.render(container);
+const HeadingComponent=()=>{
+  return <div>
+    <h1>Functional Components</h1>
+    <Heading/>
+    <Heading></Heading>
+    {Heading()}
+  </div>
+}
+const react=ReactDOM.createRoot(document.getElementById("root"));
+
+react.render(<HeadingComponent/>)

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "ramya is learning",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,7 +21,8 @@
   },
   "homepage": "https://github.com/SATTIRAMYASRI/Namaste-React#readme",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.3.1",
