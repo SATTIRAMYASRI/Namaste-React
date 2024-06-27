@@ -1,7 +1,20 @@
-#heading{
-    color:red;
+.header{
+    display: flex;
+    border: solid 1px black;
+    justify-content: space-between;
 }
 
-#container{
-    background-color: aqua;
+.logo{
+    width:200px;
+}
+
+.nav_items >ul{
+    display: flex;
+    
+}
+
+.nav_items >ul >li{
+    font-size: 24;
+    list-style: none;
+    padding: 0px 20px;
 }
