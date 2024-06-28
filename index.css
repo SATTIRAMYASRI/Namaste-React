@@ -18,3 +18,21 @@
     list-style: none;
     padding: 0px 20px;
 }
+
+.res-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.res-card-container{
+    background-color: aqua;
+    width:300;
+    height:400;
+}
+
+.res-card-img{
+    width:300;
+    height:200;
+
+}
