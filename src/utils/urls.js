@@ -1,0 +1,1 @@
+export const cloudinaryUrl="https://console.cloudinary.com/pm/c-d30d0f10d5ffb843e9a2ac3b37adce/media-explorer?assetId=20b11b41b4867fd7050d0e1967e188a3"

@@ -6,6 +6,7 @@
 
 .logo{
     width:200px;
+    
 }
 
 .nav_items >ul{
@@ -29,8 +30,13 @@
     background-color: aqua;
     width:300;
     height:400;
+    font-size: 14;
+    margin:10px;
 }
 
+.res-card-heading{
+    font-size: 16;
+}
 .res-card-img{
     width:300;
     height:200;
